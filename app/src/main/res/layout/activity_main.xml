@@ -1,0 +1,48 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img1"
+
+
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, Aidar!!!"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="36sp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textColor="#ffffff"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Android!!!"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+
+</RelativeLayout>
