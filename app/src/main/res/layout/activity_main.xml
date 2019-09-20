@@ -34,12 +34,16 @@
         android:text="From Android!!!"
         android:textColor="#ffffff"
         android:textSize="36sp"
-        android:paddingBottom="20dp"
+        android:paddingBottom="30dp"
         android:paddingRight="25dp"
         android:fontFamily="sans-serif-condensed-light"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="assafsdfgs"/>
 
 
 
